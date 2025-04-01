@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <img src="imgs/logo.png" alt="Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="quizzes.html">Quizzes</a></li>
+        </ul>
+    </nav>
+
+    <div class="carousel">
+        <img src="imgs/bgcarousel.png" class="active" id="img1">
+        <div class="overlay active" id="overlay">
+            <h4>HELLO! THIS IS ROSE</h4>
+            <h1>
+            AN INFORMATION TECHNOLOGY <br>
+            STUDENT AT CVSU - SILANG
+            </h1>
+            <a href="#aboutme">Read more about me!</a>
+        </div>
+        
+        <img src="imgs/2ndbg.png" class="fade" id="img2">
+    </div>
+    <div id="aboutme">
+        <img src="about/formal.jpg" alt="My Picture">
+        <div class="about-text">
+            <h2>Get to know me!</h2>
+            <p>Hey there! I'm Rose, a 3rd year BSIT student of Cavite State University - Silang Campus. <br></p>
+            <ul>
+              <li><span>Name: </span>Rose Ann Bajo</li>
+              <li><span>Date of birth: </span>May 18, 2004</li>
+              <li><span>Address: </span>Dasmariñas City, Cavite, Philippines</li>
+              <li><span>Zip code: </span>4114</li>
+              <li><span>Email: </span>rasbajo.18@gmail.com</li>
+              <li><span>Phone: </span>+63 9611240016</li>
+            </ul>
+
+        <a href="about.html">Read more</a>
+    </div>
+    </div>
+
+    <div id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="circle" data-percent="90"></div>
+                <p>HTML</p>
+            </div>
+            <div class="skill-box">
+                <div class="circle" data-percent="85"></div>
+                <p>CSS</p>
+            </div>
+            <div class="skill-box">
+                <div class="circle" data-percent="75"></div>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-box">
+                <div class="circle" data-percent="70"></div>
+                <p>UI/UX</p>
+            </div>
+            <div class="skill-box">
+                <div class="circle" data-percent="80"></div>
+                <p>PHP</p>
+            </div>
+            <div class="skill-box">
+                <div class="circle" data-percent="60"></div>
+                <p>.NET</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="best-work">
+        <h2>My Best Work</h2>
+        <div class="best-work-container">
+            <div class="default-work">
+                <img src="images/bestwork1.png" alt="Best Work" id="default-image">
+                <button id="view-gallery">View More</button>
+            </div>
+                <div class="work-info">
+                    <p id="work-description">So far, this is my best work as I got a total of 95 grades here. Click view more to explore my work! If you want to see my other projects, just click the button below.</p>
+                    <a href="projects.html" class="viewproj">View Project</a>
+                </div>
+            </div>
+        </div>
+    
+        <div id="lightbox" class="hidden">
+            <span id="close-lightbox">&times;</span>
+            <button id="prev">&#10094;</button>
+            <img id="lightbox-img" src="images/bestwork1.png">
+            <button id="next">&#10095;</button>
+        </div>
+        <div id="lightbox" class="hidden">
+            <span id="close-lightbox">&times;</span>
+            <button id="prev">&#10094;</button>
+            <img id="lightbox-img" src="images/bestwork2.png">
+            <button id="next">&#10095;</button>
+        </div>
+        <div id="lightbox" class="hidden">
+            <span id="close-lightbox">&times;</span>
+            <button id="prev">&#10094;</button>
+            <img id="lightbox-img" src="images/bestwork3.png">
+            <button id="next">&#10095;</button>
+        </div>
+        <div id="lightbox" class="hidden">
+            <span id="close-lightbox">&times;</span>
+            <button id="prev">&#10094;</button>
+            <img id="lightbox-img" src="images/bestwork4.png">
+            <button id="next">&#10095;</button>
+        </div>
+        <div id="lightbox" class="hidden">
+            <span id="close-lightbox">&times;</span>
+            <button id="prev">&#10094;</button>
+            <img id="lightbox-img" src="images/bestwork5.png">
+            <button id="next">&#10095;</button>
+        </div>
+        <div id="lightbox" class="hidden">
+            <span id="close-lightbox">&times;</span>
+            <button id="prev">&#10094;</button>
+            <img id="lightbox-img" src="images/bestwork6.png">
+            <button id="next">&#10095;</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section social-media">
+                <h3>Follow Me</h3>
+                <a href="https://www.facebook.com/ese.mel.7330" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/_thyvrox" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/go2sleppp" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+    
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="quizzes.html">Quizzes</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Brgy. H2, Dasmariñas City, Cavite</p>
+                <p><i class="fas fa-phone"></i> +63 09611240016</p>
+                <p><i class="fas fa-envelope"></i> rasbajo.18@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>Copyright © 2025 All rights reserved</p>
+        </div>
+    </footer>       
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        let index = 0;
+        const images = document.querySelectorAll(".carousel img");
+        const overlay = document.getElementById("overlay");
+
+        setInterval(() => {
+            images[index].classList.remove("active");
+            images[index].classList.add("fade");
+            if (index === 0) overlay.classList.remove("active");
+
+            index = (index + 1) % images.length;
+
+            images[index].classList.add("active");
+            images[index].classList.remove("fade");
+            if (index === 0) overlay.classList.add("active");
+        }, 5000);
+
+        const aboutMeSection = document.getElementById("aboutme");
+        const readMoreLink = document.querySelector(".overlay a");
+
+        readMoreLink.addEventListener("click", (event) => {
+            event.preventDefault();
+
+            aboutMeSection.style.opacity = "0";
+            aboutMeSection.style.transform = "translateY(50px)";
+
+            aboutMeSection.scrollIntoView({ behavior: "smooth" });
+
+            setTimeout(() => {
+                aboutMeSection.style.transition = "transform 0.8s ease-in-out, opacity 0.8s ease-in-out";
+                aboutMeSection.style.transform = "translateY(0)";
+                aboutMeSection.style.opacity = "1";
+            }, 300);
+        });
+    });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        const circles = document.querySelectorAll(".circle");
+
+        function createCircles() {
+            circles.forEach(circle => {
+                const percent = circle.getAttribute("data-percent");
+                const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+                const bgCircle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                const progressCircle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+
+                svg.setAttribute("viewBox", "0 0 150 150");
+
+                bgCircle.setAttribute("cx", "75");
+                bgCircle.setAttribute("cy", "75");
+                bgCircle.setAttribute("r", "60");
+                bgCircle.setAttribute("stroke-width", "10");
+                bgCircle.setAttribute("stroke", "#ddd");
+                bgCircle.setAttribute("fill", "none");
+
+                progressCircle.setAttribute("cx", "75");
+                progressCircle.setAttribute("cy", "75");
+                progressCircle.setAttribute("r", "60");
+                progressCircle.setAttribute("stroke-width", "10");
+                progressCircle.setAttribute("stroke", "#6B705C");
+                progressCircle.setAttribute("fill", "none");
+                progressCircle.setAttribute("stroke-dasharray", "377");
+                progressCircle.setAttribute("stroke-dashoffset", "377");
+                progressCircle.classList.add("progress-ring");
+
+                svg.appendChild(bgCircle);
+                svg.appendChild(progressCircle);
+                circle.appendChild(svg);
+
+                setTimeout(() => {
+                    const offset = 377 - (377 * percent) / 100;
+                    progressCircle.style.strokeDashoffset = offset;
+                }, 500);
+            });
+        }
+
+        createCircles();
+    });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const images = [
+                "images/bestwork1.png",
+                "images/bestwork2.png",
+                "images/bestwork3.png",
+                "images/bestwork4.png",
+                "images/bestwork5.png",
+                "images/bestwork6.png",
+            ];
+            let currentIndex = 0;
+
+            const viewGalleryBtn = document.getElementById("view-gallery");
+            const lightbox = document.getElementById("lightbox");
+            const lightboxImg = document.getElementById("lightbox-img");
+            const closeLightbox = document.getElementById("close-lightbox");
+            const prevBtn = document.getElementById("prev");
+            const nextBtn = document.getElementById("next");
+
+            function updateImage() {
+                lightboxImg.src = images[currentIndex];
+            }
+
+            viewGalleryBtn.addEventListener("click", () => {
+                lightbox.style.display = "flex";
+                currentIndex = 0;
+                updateImage();
+            });
+
+            closeLightbox.addEventListener("click", () => {
+                lightbox.style.display = "none";
+            });
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                updateImage();
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                updateImage();
+            });
+        });
+    </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const viewGalleryBtn = document.getElementById("view-gallery");
+        const defaultWork = document.querySelector(".default-work");
+        const lightbox = document.getElementById("lightbox");
+        const closeLightbox = document.getElementById("close-lightbox");
+
+        viewGalleryBtn.addEventListener("click", function () {
+            defaultWork.classList.add("overlay-hidden");
+            viewGalleryBtn.style.display = "none";
+            lightbox.style.display = "flex";
+            document.body.classList.add('no-scroll');
+        });
+
+        closeLightbox.addEventListener("click", function () {
+            defaultWork.classList.remove("overlay-hidden");
+            viewGalleryBtn.style.display = "block";
+            lightbox.style.display = "none";
+            document.body.classList.remove('no-scroll');
+        });
+    });
+    </script>
+</body>
+</html>
