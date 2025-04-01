@@ -48,6 +48,9 @@ nav ul li a {
     font-size: 20px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
+nav ul li a:hover{
+    color: black;
+}
 
 /*content*/
 h1 {
