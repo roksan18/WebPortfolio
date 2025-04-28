@@ -84,6 +84,34 @@
         <div class="footer-copyright">
             <p>Copyright © 2025 All rights reserved</p>
         </div>
-    </footer>       
+    </footer>    
+
+    
+<div id="lightbox" class="lightbox"> 
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.querySelector('.close');
+
+    // When any image inside .image-container is clicked
+    document.querySelectorAll('.image-container img').forEach(img => {
+        img.addEventListener('click', function() {
+            lightbox.style.display = 'flex';
+            lightboxImg.src = this.src;
+        });
+    });
+    closeBtn.addEventListener('click', function() {
+        lightbox.style.display = 'none';
+    });
+    lightbox.addEventListener('click', function(e) {
+        if (e.target !== lightboxImg) {
+            lightbox.style.display = 'none';
+        }
+    });
+</script>
 </body>
 </html>
